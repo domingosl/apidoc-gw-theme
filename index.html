@@ -137,8 +137,16 @@
     {{#if article.description}}
       <p>{{{nl2br article.description}}}</p>
     {{/if}}
-    <span class="type type__{{toLowerCase article.type}}">{{toLowerCase article.type}}</span>
-    <pre class="prettyprint language-html" data-type="{{toLowerCase article.type}}"><code>{{article.url}}</code></pre>
+
+    <div class="row">
+      <div class="col-md-1">
+        <span class="type type__{{toLowerCase article.type}}">{{toLowerCase article.type}}</span>
+      </div>
+      <div class="col-md-11">
+        <pre class="prettyprint language-html" data-type="{{toLowerCase article.type}}"><code>{{article.url}}</code></pre>
+      </div>
+    </div>
+
 
     {{#if article.permission}}
       <p>
