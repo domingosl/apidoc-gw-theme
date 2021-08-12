@@ -9,6 +9,10 @@
   <link href="vendor/prettify.css" rel="stylesheet" media="screen">
   <link href="css/style.css" rel="stylesheet" media="screen, print">
   <link href="img/favicon.ico" rel="icon" type="image/x-icon">
+  <link
+          rel="stylesheet"
+          href="https://unpkg.com/simplebar@latest/dist/simplebar.css"
+  />
   <script src="vendor/polyfill.js"></script>
 </head>
 <body class="container-fluid">
@@ -22,7 +26,7 @@
       <span class="search-reset">x</span>
     </div>-->
 
-    <ul class="sidenav nav nav-list list">
+    <ul data-simplebar class="sidenav nav nav-list list">
       <img class="logo" src="img/logo-growish.png" />
       {{#each nav}}
         {{#if title}}
@@ -690,6 +694,7 @@
   </div>
 </div>
 
+<script src="https://unpkg.com/simplebar@latest/dist/simplebar.min.js"></script>
 <script data-main="main.js" src="vendor/require.min.js"></script>
 </body>
 </html>
