@@ -18,6 +18,21 @@ body, p, a, div, th, td {
     margin: 0 !important;
 }
 
+.logo {
+    width: 100%;
+    padding: 20px 0;
+}
+
+.nav>li>a:focus, .nav>li>a:hover {
+    text-decoration: none;
+    background-color: #0088cc;
+}
+
+.container-fluid {
+    max-width: 99%;
+    overflow-x: hidden;
+}
+
 @media (min-width: 1200px) {
     body.container-fluid {
         padding-right: 0px;
@@ -276,20 +291,24 @@ pre code.sample-request-response-json {
     margin: 0;
     padding: 0 20px 20px 20px;
     position: fixed;
-    top: 50px;
+    top: 0;
     left: 0;
     bottom: 0;
     overflow-x: hidden;
     overflow-y: auto;
-    background-color: #f5f5f5;
+    background-color: #333333;
     z-index: 10;
+}
+
+.sidenav a {
+    color: white;
 }
 
 .sidenav > li > a {
     display: block;
     width: 192px;
     margin: 0;
-    padding: 2px 11px;
+    padding: 2px 0;
     border: 0;
     border-left: transparent 4px solid;
     border-right: transparent 4px solid;
@@ -304,33 +323,33 @@ pre code.sample-request-response-json {
 }
 
 .sidenav > li.nav-header > a {
-    padding: 5px 15px;
-    border: 1px solid #e5e5e5;
+    adding: 5px 0px;
     width: 190px;
     font-family: "Lato", sans-serif;
     font-weight: 700;
     font-size: 16px;
-    background-color: #ffffff;
 }
 
 .sidenav > li.active > a {
-    position: relative;
-    z-index: 2;
-    background-color: #0088cc;
-    color: #ffffff;
+position: relative;
+z-index: 2;
+background-color: #0088cc;
+color: #ffffff;
 }
 
 .sidenav > li.has-modifications a {
-    border-right: #60d060 4px solid;
+border-right: #60d060 4px solid;
 }
 
 .sidenav > li.is-new a {
     border-left: #e5e5e5 4px solid;
+    padding: 0px 5px;
+    margin: 0 5px;
 }
 
 /* ------------------------------------------------------------------------------------------
- * Side nav search
- * ------------------------------------------------------------------------------------------ */
+* Side nav search
+* ------------------------------------------------------------------------------------------ */
 .sidenav-search {
     width: 228px;
     left: 0px;
