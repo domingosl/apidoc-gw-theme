@@ -19,6 +19,7 @@
 
 <script id="template-sidenav" type="text/x-handlebars-template">
 
+
   <nav id="scrollingNav">
 
 <!--    <div class="sidenav-search">
@@ -26,7 +27,8 @@
       <span class="search-reset">x</span>
     </div>-->
 
-    <ul data-simplebar class="sidenav nav nav-list list">
+
+      <ul class="sidenav nav nav-list list">
       <img class="logo" src="img/logo-growish.png" />
       {{#each nav}}
         {{#if title}}
@@ -44,7 +46,10 @@
         {{/if}}
       {{/each}}
     </ul>
+
+
   </nav>
+
 </script>
 
 <script id="template-project" type="text/x-handlebars-template">

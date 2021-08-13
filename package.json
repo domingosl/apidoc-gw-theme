@@ -1,10 +1,33 @@
 {
-  "name": "apidoc-gw-theme",
-  "version": "1.0.0",
+  "_from": "git+https://github.com/domingosl/apidoc-gw-theme.git",
+  "_id": "apidoc-gw-theme@1.0.0",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/apidoc-gw-theme",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/domingosl/apidoc-gw-theme.git",
+    "rawSpec": "git+https://github.com/domingosl/apidoc-gw-theme.git",
+    "saveSpec": "git+https://github.com/domingosl/apidoc-gw-theme.git",
+    "fetchSpec": "https://github.com/domingosl/apidoc-gw-theme.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "git+https://github.com/domingosl/apidoc-gw-theme.git#08deefc0acf1eefa5bdfe0ec805eea4d0d04944b",
+  "_spec": "git+https://github.com/domingosl/apidoc-gw-theme.git",
+  "_where": "/Users/user/WebstormProjects/gw-api-v2",
+  "author": "",
+  "bundleDependencies": false,
+  "deprecated": false,
   "description": "",
+  "license": "ISC",
+  "name": "apidoc-gw-theme",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC"
+  "version": "1.0.0"
 }
